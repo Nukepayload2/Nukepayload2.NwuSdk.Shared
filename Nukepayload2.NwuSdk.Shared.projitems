@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>55c4de7b-4ecb-40c9-bdc6-c92b05ed408c</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Nukepayload2.NwuSdk.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Common\CssInjectHelper.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\LoginException.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\PageAnalyzer.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\RequestHeaderHelper.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Strings\RegularExpressionExtensions.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\TextLinkPair.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\WebNotificationExtension.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)DoorSite\CardInformation.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)DoorSite\DoorSiteCookies.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)DoorSite\DoorSiteLogin.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)DoorSite\DoorSiteLogout.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)DoorSite\HeadmasterMailboxItem.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)DoorSite\MainPageAnalyzer.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)DoorSite\MainPageAnalyzeResult.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)DoorSite\PageURLs.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)DoorSite\SchoolNewsGroup.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)DoorSite\SystemNavigationItem.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)DoorSite\UserCredential.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)DoorSite\UserInformation.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)EduAdminSys\LoginHelper.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)EduAdminSys\LoginInfo.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)EduAdminSys\PageContent.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)EduAdminSys\ScheduleConsulter.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)EduAdminSys\ScoreConsulter.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)EduAdminSys\SelectedCourseConsulter.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)EduAdminSys\UserInfo.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)EduAdmin\JwcPageAnalyzer.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)License.txt" />
+  </ItemGroup>
+</Project>
