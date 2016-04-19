@@ -17,7 +17,7 @@ https://github.com/Nukepayload2/Nukepayload2.NwuSdk <br />
 https://github.com/Nukepayload2/Nukepayload2.NwuSdk.Portable <br />
 <br />
 <h3>成品的应用：</h3>
-<a href="ms-windows-store://pdp/?productid=9wzdncrd1xnk">点击进入Windows 商店</a><br />
+<a href="ms-windows-store://pdp/?productid=9wzdncrd1xnk">ms-windows-store://pdp/?productid=9wzdncrd1xnk</a><br />
 <h3>
     全文使用vb.net编写, 如果看不懂, 请看教程:
 </h3>
