@@ -21,7 +21,7 @@ https://github.com/Nukepayload2/Nukepayload2.NwuSdk.Portable <br />
 <h3>
     全文使用vb.net编写, 如果看不懂, 请看教程:
 </h3>
-    https://msdn.microsoft.com/zh-cn/library/2x7h1hfk.aspx
+    <a href="https://msdn.microsoft.com/zh-cn/library/2x7h1hfk.aspx">https://msdn.microsoft.com/zh-cn/library/2x7h1hfk.aspx</a>
 <h3>已实现的功能：</h3>
 <dlv>
     <li>登录</li>
